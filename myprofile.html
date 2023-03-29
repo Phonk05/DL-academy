@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>My profile</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="header__logo">
+                <ul class="header__list">
+                    <li class="header__li header__li-home"><a href="./index.html" class="header__list-item">Home</a></li>
+                    <li class="header__li"><a href="#" class="header__list-item">My blog</a></li>
+                    <li class="header__li"><a href="#" class="header__list-item button-btn-js">Sign in</a></li>
+                    <li class="header__li"><a href="#" class="header__list-item button-btn__js">Register</a></li>
+                   </ul>
+            </nav>
+    </div>
+</header>
+
+
+    <div class="menu">
+  <nav>
+    <ul class="menu__ltems">
+      <li class="menu__list">Home</li>
+      <li class="menu__list menu__list-js">My blog</li>
+      <li class="menu__list menu__list-open">Sign in</li>
+      <li class="menu__list menu__list-register">Register</li>
+    </ul>
+  </nav>
+</div>
+<div class="menu__header">
+  <div class="menu__btn">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+
+    <main>
+        <section class="profile">
+            <div class="container">
+                <h1 class="profile__title">My profile</h1>     
+                <div class="profile__group">
+                    <img src="./img/berserk.jpg" alt="myphoto" width="320" height="450">
+                    <div class="profile__user-group">
+                        <div class="profile__user-data">
+                            <ul>
+                                <li class="profile__user-item">Name:<span class="profile__user-it">Ksenia</span></li>
+                                <li class="profile__user-item">Surname:<span class="profile__user-it">Larioshkina</span></li>
+                                <li class="profile__user-item">Email:<span class="profile__user-it">larioshkina@gmail.com</span></li>
+                                <li class="profile__user-item">Password:<span class="profile__user-it">****************</span></li>
+                                <li class="profile__user-item">Location:<span class="profile__user-it">Moscow</span></li>
+                                <li class="profile__user-item">Age:<span class="profile__user-it">17</span></li>
+                            </ul>
+                        </div>
+                        <div class="profile__user-change">
+                            <ul>
+                                <li class="profile__user-link password__form-open"><a href="#" class="profile__user-li"></a>Change password</li>
+                                <li class="profile__user-link data__form-open"><a href="#" class="profile__user-li"></a>Change other data</li>
+                                <li class="profile__user-link"><a href="#" class="profile__user-li"></a>Delete account</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="password password-js"> 
+    <div class="container-password">
+        <div class="password-block">            
+<div class="password__form"> 
+    <form action="#" method="POST" name="passwordForm" novalidate>
+     <div class="password__form-oldpass">
+      <div class="password__form-old">
+       <label class="password__form-labelold" for="pasOne">Old password<span class="password__form-point">*</span></label>
+       <input class="password__form-inputold" type="text" id="pasOne" name="pas" required>
+      </div>
+      <div class="password__form-new">
+        <label class="password__form-labelnew" for="newOne">New password<span class="password__form-point">*</span></label>
+        <input class="password__form-inputnew" type="text" id="newOne" name="new" required>
+       </div>
+       <div class="password__form-repeat">
+        <label class="password__form-labelrepeat" for="repeatOne">Repeat new password<span class="password__form-point">*</span></label>
+        <input class="password__form-inputrepeat" type="text" id="repeatOne" name="rep" required>
+       </div>
+     </div>
+     <button class="password__form-button" type="submit">Change password</button>
+    </form>
+   </div>
+        <button class="password__form-close password__form-close" type="button"></button>
+        </div>
+    </div>
+</div>
+    <div class="data"> 
+    <div class="data__container">
+        <div class="data__block">            
+<div class="data__block-forms"> 
+    <form action="#" method="post">
+        <div class="data__block-forms-mail">
+            <label class="data__block-forms-labelmail" for="mail">Email<span class="data__block-forms-point">*</span></label>
+            <input class="data__block-forms-inputmail" type="email" id="mail" name="mail">
+           </div>
+           <div class="data__block-forms-flex">
+            <div class="data__block-forms-groupone">
+                <div class="data__block-forms-name">
+                  <label class="data__block-forms-labelname" for="name">Name<span class="data__block-forms-point">*</span></label>
+                  <input class="data__block-forms-inputname" type="text" id="name" name="name">
+                 </div>
+                 <div class="data__block-forms-location">
+                    <label class="data__block-forms-labellocation" for="location">Location<span class="data__block-forms-point">*</span></label>
+                    <input class="data__block-forms-inputlocation" type="text" id="location" name="location">
+                   </div>
+             </div>
+             <div class="data__block-forms-grouptwo">
+                 <div class="data__block-forms-surname">
+                     <label class="data__block-forms-labelsurname" for="surname">Surname<span class="data__block-forms-point">*</span></label>
+                     <input class="data__block-forms-inputsurname" type="text" id="surname" name="surname">
+                    </div>
+                    <div class="data__block-forms-age">
+                     <label class="data__block-forms-labelage" for="age">Age<span class="data__block-forms-point">*</span></label>
+                     <input class="data__block-forms-inputage" type="text" id="age" name="age">
+                    </div>
+                    <div class="data__block-forms-picture">
+                        <label class="data__block-forms-labelpicture" for="picture">Profile picture<span class="data__block-forms-point">*</span></label>
+                        <input class="data__block-forms-inputpicture" type="text" id="picture" name="picture">
+                        
+                       </div>
+             </div>
+           </div>
+           <button class="data__block-forms-button" type="submit">Submit changes</button>
+    </form>
+   </div>
+        <button class="data__block-forms-close data__form-close" type="button"></button>
+        </div>
+    </div>
+</div>
+
+    <script src="./js/burger.js"></script>
+    <script src="./js/password.js"></script>
+    <script src="js/javascript.js"></script>
+    <script src="js/validation.js"></script>
+</body>
+</html>
